@@ -24,7 +24,7 @@ public class ChevauxController {
         return dao.findById(id);
     }
 
-    @PostMapping(value = "Chevaux")
+    @PostMapping(value = "/Chevaux")
     public void addCheval(@RequestBody Chevaux c) {
         dao.save(c);
     }

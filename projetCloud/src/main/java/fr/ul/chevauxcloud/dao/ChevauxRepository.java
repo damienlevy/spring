@@ -11,7 +11,4 @@ public interface ChevauxRepository extends CrudRepository<Chevaux,Integer> {
 
     void deleteById(int id);
 
-
-
-
 }
